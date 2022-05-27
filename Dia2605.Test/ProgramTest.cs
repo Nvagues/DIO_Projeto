@@ -50,7 +50,7 @@ public class ProgramTest
     [TestMethod]
     public void SomarDeveRetornar1()
     {
-        int x = 1;
+        int x = 0;
         int y = 1;
 
         int resultado = Program.Somar(x, y);

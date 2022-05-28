@@ -46,4 +46,15 @@ public class ProgramTest
 
         Assert.AreEqual(3, resultado);
     }
+
+    [TestMethod]
+    public void SomarDeveRetornar1()
+    {
+        int x = 0;
+        int y = 1;
+
+        int resultado = Program.Somar(x, y);
+
+        Assert.AreEqual(1, resultado);
+    }
 }

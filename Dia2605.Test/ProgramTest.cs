@@ -17,7 +17,7 @@ public class ProgramTest
     [TestMethod]
     public void SomarDeveRetornar0()
     {
-        int x = 0;
+        int x = 0-;
         int y = 0;
 
         int resultado = Program.Somar(x, y);
@@ -39,7 +39,7 @@ public class ProgramTest
     [TestMethod]
     public void SomarDeveRetornar3_InvertendoXeY()
     {
-        int x = 2;
+        int x = 99;
         int y = 1;
 
         int resultado = Program.Somar(x, y);

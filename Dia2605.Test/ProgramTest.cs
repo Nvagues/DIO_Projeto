@@ -17,7 +17,7 @@ public class ProgramTest
     [TestMethod]
     public void SomarDeveRetornar0()
     {
-        int x = 0-;
+        int x = 0;
         int y = 0;
 
         int resultado = Program.Somar(x, y);

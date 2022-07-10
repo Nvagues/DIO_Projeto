@@ -1,0 +1,16 @@
+<script>
+function multiplicar(a,b)
+{
+	var soma = 0;
+	for (var i = 1; i <= b; i++)    
+		{ 	
+		soma = soma+a; 
+		}			
+		return soma;
+}
+
+
+var resultadoMultiplicar=multiplicar(2,5);
+
+alert(resultadoMultiplicar);
+</script>
